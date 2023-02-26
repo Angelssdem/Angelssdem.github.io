@@ -1,0 +1,267 @@
+*{
+	scroll-behavior: smooth;
+	font-family: verdana, sans-serif;
+	color: white;
+}
+
+body {
+	margin: 0px;
+	background-color: #555652; 
+}
+
+a{ 
+	text-decoration: none;
+}
+
+header {
+	padding: 5px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+	background-color:	#FFA500;
+}
+
+.log{
+	margin: auto;
+	margin-left: 25px;
+	display: flex;
+}
+
+.log img{
+	display: flex;
+	margin: auto;
+	width: 200px;
+	padding-left: 50px;
+}
+
+#nav-header{
+	padding-right: 50px;
+}
+
+#nav-header ul{
+	list-style-type: none;
+	display: flex;
+	margin: 2px;
+	padding: 3px;
+}
+
+#nav-header a{
+	font-family: verdana, sans-serif;
+	font-weight: bold;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	margin: 10px;
+	text-decoration: none;
+	color: white;
+	-webkit-transition: all 700ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+	border-radius: 50px;
+}
+
+#nav-header a:hover{
+	padding: 10px;
+	background-color: #282923;
+	color: white;
+	font-size: 18px;
+	margin: 10px;
+	animation: 5ms;
+}
+
+#Indice-cont{
+	display: block;
+	border-radius: 10px;
+	float: right;
+	padding-right: 0px;
+	width: 440px;
+	background-color: #282923;
+	margin: 5px;
+	margin-right: 6px;
+	margin-top: 125px;
+	box-shadow:  0px 0px 20px -5px #000;
+}
+
+#Indice-cont h2{
+	font-family: verdana, sans-serif;
+	text-align: center;
+	color: #FFA500;
+}
+
+.indice-general{
+	list-style-type: none;
+}
+
+ol.indice-general{
+counter-reset: item;
+}
+ 
+ol.indice-general li:before {
+content:  counters(item, '.') " ";
+counter-increment: item;
+}
+
+.ind a{
+	list-style-position: inside;
+	text-decoration: none;
+	font-family: verdana, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.ind a:hover{
+	font-size: 20px;
+	color: #FFA500;
+}
+
+#all {	 
+	display: block;
+	float: left; 
+	background-color: #282923;
+	padding: 30px;
+	width: 820px;
+	border-radius: 15px;
+	margin: 5px;
+	margin-left: 5px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-indent: 5px;
+	text-align: justify;
+	font-size: 20px;
+	font-family: verdana, sans-serif;
+	text-indent: 20px;
+	box-shadow:  0px 0px 20px -5px #000;
+	align-items: center;
+}
+
+#all h1, #all h2{
+	font-size: 25px;
+	color: #FFA500;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#all h3{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-indent: 40px;
+/*	margin-left: 50px; */
+	font-size: 25px;
+	color: #FFA500;
+	text-align: left;
+	font-family: verdana, sans-serif;
+}
+
+.img-cont{
+	box-shadow:  0px 0px 20px -5px #000;
+	border-radius: 15px;
+	margin: auto;
+	display: block;
+	width: 700px;
+}
+
+#imgkinsco, #hermanos{
+	border-radius: 16px;
+	width: 700px;
+	align-items: center;
+	background-color: white;
+	font-size: 14px;
+	display: block;
+	padding: 0px;
+	margin: auto; 
+	text-align: left;
+}
+
+.des-img{
+	color: #000;
+	padding-bottom: 5px;
+}
+
+.vid iframe{
+	width: 700px;
+	height: 400px; 
+	display: inline-block;
+	margin: auto;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+.generos_cinematograficos dd{
+	margin-bottom: 25px;
+	margin-top: 10px;
+}
+
+.generos_cinematograficos dt{
+	font-size: 24px;
+	font-weight: bold;
+	font-family: verdana, sans-serif;
+
+}
+
+footer {	
+	font-size: 18px;
+	position: relative;
+	width: 98.5%;
+	height: 100px;
+	margin-bottom: 0px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color:	#FFA500;
+}
+
+.logo-footter{
+	justify-content: space-around;
+	display: flex;
+	left: 25px;
+	margin: 25px;
+	margin-right: auto;
+	margin-left: 5px;
+	padding: 5px;
+	height: 100px;
+}
+
+.logo-footter h4{
+	align-items: center;
+	margin: 25px;
+	margin-top:40px;
+}
+
+.logo-footterimg{
+	display: inline-flex;
+	width: 300px;
+	margin: 0px;
+}
+
+.lis-integrantes{
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	left: 25px;
+	margin-right: 10px;	
+	margin-left: 5px;
+	padding: 5px;
+}
+
+.lis-integrantes ul{
+	margin-left: 5px; 	
+	display: flex;
+	justify-content: space-between;
+}
+
+.lis-integrantes ul li{
+	list-style-type: disc;
+	font-weight: bold;
+	display: flex;
+	margin:20px;
+}
